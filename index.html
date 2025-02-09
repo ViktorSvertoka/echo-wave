@@ -4,625 +4,109 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="shortcut icon" href="./images/favicon.png" type="image/png" />
+    <title>Echo Wave</title>
     <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      rel="shortcut icon"
+      href="./images/global/favicon.png"
+      type="image/x-icon"
     />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="./css/main.min.css" />
-    <title>Britlex</title>
-  </head>
-  <body>
-    <header class="header">
-      <div class="header__container container">
-        <a class="header__logo" href="##"
-          ><p class="header__logo-primary">
-            Brit<span class="header__logo-accent">lex</span>
-          </p></a
-        >
-        <nav class="header__nav">
-          <ul class="header__list">
-            <li class="header__item">
-              <a class="header__link" href="##">Home</a>
-            </li>
-            <li class="header__item">
-              <a class="header__link" href="##">Skills</a>
-            </li>
-            <li class="header__item">
-              <a class="header__link" href="##">About Us</a>
-            </li>
-            <li class="header__item">
-              <a class="header__link" href="##">Pricing</a>
-            </li>
-            <li class="header__item">
-              <a class="header__link" href="##">Contacts</a>
-            </li>
-          </ul>
-          <button class="header__button" type="button">Let’s Talk</button>
-        </nav>
-        <!-- burger menu -->
-        <div class="header__burger-menu-wrapper">
-          <button
-            class="menu-toggle js-open-menu"
-            aria-expanded="false"
-            aria-controls="mobile-menu"
-          >
-            <svg class="header__burger-menu-icon" width="" height="">
-              <use class="" href="./images/icons.svg#icon-burger-menu"></use>
-            </svg>
-          </button>
-        </div>
-        <!-- burger menu -->
-      </div>
-    </header>
-    <main>
-      <section class="hero">
-        <div class="container">
-          <div class="hero__wrapper">
-            <picture>
-              <source
-                srcset="
-                  ./images/languages-tab-m-1x.png 1x,
-                  ./images/languages-tab-m-2x.png 2x
-                "
-                media="(min-width:768px)"
-              />
-              <source
-                srcset="
-                  ./images/languages-tab-s-1x.png 1x,
-                  ./images/languages-tab-s-2x.png 2x
-                "
-                media="(min-width:576px)"
-              />
-              <source
-                srcset="
-                  ./images/languages-mob-1x.png 1x,
-                  ./images/languages-mob-2x.png 2x
-                "
-                media="(min-width:320px)"
-              />
-              <img class="hero__img" src="" alt="learning-languages" />
-            </picture>
-            <h1 class="hero__title">Learn Any Foreign Language</h1>
-            <p class="hero__text">
-              With our teachers who write a program for each student, you will
-              be able to make your first sketch after the first lesson.
-            </p>
-            <button
-              class="hero__button js-open-modal"
-              type="button"
-              data-modal="5"
-            >
-              Get started
-            </button>
-          </div>
-        </div>
-      </section>
-      <section class="skills">
-        <div class="container">
-          <h2 class="skills__title">Skills</h2>
-          <div class="skills__wrap">
-            <div class="skills__wrapper">
-              <picture>
-                <source
-                  srcset="
-                    ./images/speaking-tab-m-1x.png 1x,
-                    ./images/speaking-tab-m-2x.png 2x
-                  "
-                  media="(min-width:768px)"
-                />
-                <source
-                  srcset="
-                    ./images/speaking-tab-s-1x.png 1x,
-                    ./images/speaking-tab-s-2x.png 2x
-                  "
-                  media="(min-width:576px)"
-                />
-                <source
-                  srcset="
-                    ./images/speaking-mob-1x.png 1x,
-                    ./images/speaking-mob-2x.png 2x
-                  "
-                  media="(min-width:320px)"
-                />
-                <img
-                  class="skills__img"
-                  src="./images/speaking.jpg"
-                  alt="Speaking"
-                />
-              </picture>
-              <h3 class="skills__subtitle">Speaking</h3>
-              <p class="skills__text">
-                Improve your English skills and confidence. Live classes and
-                interactive lessons online. 20% extra free for a limited time
-                only
-              </p>
-              <br />
-              <p class="skills__text">
-                Learn English online and improve your skills through our
-                high-quality courses and resources – all designed for adult
-                language learners.
-              </p>
-              <button
-                class="skills__button js-open-modal"
-                type="button"
-                data-modal="1"
-              >
-                Learn more
-              </button>
-            </div>
-            <div class="skills__wrapper">
-              <picture>
-                <source
-                  srcset="
-                    ./images/writing-tab-m-1x.png 1x,
-                    ./images/writing-tab-m-2x.png 2x
-                  "
-                  media="(min-width:768px)"
-                />
-                <source
-                  srcset="
-                    ./images/writing-tab-s-1x.png 1x,
-                    ./images/writing-tab-s-2x.png 2x
-                  "
-                  media="(min-width:576px)"
-                />
-                <source
-                  srcset="
-                    ./images/writing-mob-1x.png 1x,
-                    ./images/writing-mob-2x.png 2x
-                  "
-                  media="(min-width:320px)"
-                />
-                <img
-                  class="skills__img"
-                  src="./images/writing.jpg"
-                  alt="Writing"
-                />
-              </picture>
-              <h3 class="skills__subtitle">Writing</h3>
-              <p class="skills__text">
-                One of the most important and extensive areas of natural
-                science, the science that studies substances, also their
-                composition
-              </p>
-              <button
-                class="skills__button js-open-modal"
-                type="button"
-                data-modal="2"
-              >
-                Learn more
-              </button>
-            </div>
-            <div class="skills__wrapper">
-              <picture>
-                <source
-                  srcset="
-                    ./images/reading-tab-m-1x.png 1x,
-                    ./images/reading-tab-m-2x.png 2x
-                  "
-                  media="(min-width:768px)"
-                />
-                <source
-                  srcset="
-                    ./images/reading-tab-s-1x.png 1x,
-                    ./images/reading-tab-s-2x.png 2x
-                  "
-                  media="(min-width:576px)"
-                />
-                <source
-                  srcset="
-                    ./images/reading-mob-1x.png 1x,
-                    ./images/reading-mob-2x.png 2x
-                  "
-                  media="(min-width:320px)"
-                />
-                <img
-                  class="skills__img"
-                  src="./images/reading.jpg"
-                  alt="Reading"
-                />
-              </picture>
-              <h3 class="skills__subtitle">Reading</h3>
-              <p class="skills__text">
-                Perception and response actions of the user resulting from the
-                use and/or upcoming use of the product, system or service
-              </p>
-              <button
-                class="skills__button js-open-modal"
-                type="button"
-                data-modal="3"
-              >
-                Learn more
-              </button>
-            </div>
-            <div class="skills__wrapper">
-              <picture>
-                <source
-                  srcset="
-                    ./images/listening-tab-m-1x.png 1x,
-                    ./images/listening-tab-m-2x.png 2x
-                  "
-                  media="(min-width:768px)"
-                />
-                <source
-                  srcset="
-                    ./images/listening-tab-s-1x.png 1x,
-                    ./images/listening-tab-s-2x.png 2x
-                  "
-                  media="(min-width:576px)"
-                />
-                <source
-                  srcset="
-                    ./images/listening-mob-1x.png 1x,
-                    ./images/listening-mob-2x.png 2x
-                  "
-                  media="(min-width:320px)"
-                />
-                <img
-                  class="skills__img"
-                  src="./images/listening.jpg"
-                  alt="Listening"
-                />
-              </picture>
-              <h3 class="skills__subtitle">Listening</h3>
-              <p class="skills__text">
-                Here you can find activities to practise your listening skills.
-                Listening will help you to improve your understanding
-              </p>
-              <button
-                class="skills__button js-open-modal"
-                type="button"
-                data-modal="4"
-              >
-                Learn more
-              </button>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section class="about">
-        <div class="container">
-          <h2 class="about__title">About Us</h2>
-          <picture>
-            <source
-              srcset="
-                ./images/about-us-tab-m-1x.png 1x,
-                ./images/about-us-tab-m-2x.png 2x
-              "
-              media="(min-width:768px)"
-            />
-            <source
-              srcset="
-                ./images/about-us-tab-s-1x.png 1x,
-                ./images/about-us-tab-s-2x.png 2x
-              "
-              media="(min-width:576px)"
-            />
-            <source
-              srcset="
-                ./images/about-us-mob-1x.png 1x,
-                ./images/about-us-mob-2x.png 2x
-              "
-              media="(min-width:320px)"
-            />
-            <img class="about__img" src="" alt="About Us" />
-          </picture>
-          <p class="about__text">
-            The model offers a framework for discussing problems related to the
-            user's experience, as well as possible ways and means of solving
-            them. Application development begins at the top level (strategy),
-            where the future software product is described quite abstractly from
-            the point of view of the expectations of both users and the
-            customer.
-          </p>
-          <ul class="about__list">
-            <li class="about__item">
-              <p class="about__number">800</p>
-              <p class="about__desc">Pupils</p>
-            </li>
-            <li class="about__item">
-              <p class="about__number">18</p>
-              <p class="about__desc">Teachers</p>
-            </li>
-            <li class="about__item">
-              <p class="about__number">6</p>
-              <p class="about__desc">Foreign languages</p>
-            </li>
-          </ul>
-        </div>
-      </section>
-      <section class="price">
-        <div class="container">
-          <h2 class="price__title">Pricing</h2>
-          <ul class="price__list">
-            <li class="price__item">
-              <picture>
-                <source
-                  srcset="
-                    ./images/self-study-tab-m-1x.png 1x,
-                    ./images/self-study-tab-m-2x.png 2x
-                  "
-                  media="(min-width:768px)"
-                />
-                <source
-                  srcset="
-                    ./images/self-study-tab-s-1x.png 1x,
-                    ./images/self-study-tab-s-2x.png 2x
-                  "
-                  media="(min-width:576px)"
-                />
-                <source
-                  srcset="
-                    ./images/self-study-mob-1x.png 1x,
-                    ./images/self-study-mob-2x.png 2x
-                  "
-                  media="(min-width:320px)"
-                />
-                <img class="price__img" src="" alt="Self-study online course" />
-              </picture>
-              <h3 class="price__subtitle">Self-study online course</h3>
-              <p class="price__text">
-                Start learning English online in live classes with qualified EC
-                teachers and students from all over the world.
-              </p>
-              <div class="price__wrapper">
-                <span class="price__numbers">£5.99</span>
-                <span class="price__desc">per month</span>
-              </div>
-            </li>
-            <li class="price__item">
-              <picture>
-                <source
-                  srcset="
-                    ./images/live-online-tab-m-1x.png 1x,
-                    ./images/live-online-tab-m-2x.png 2x
-                  "
-                  media="(min-width:768px)"
-                />
-                <source
-                  srcset="
-                    ./images/live-online-tab-s-1x.png 1x,
-                    ./images/live-online-tab-s-2x.png 2x
-                  "
-                  media="(min-width:576px)"
-                />
-                <source
-                  srcset="
-                    ./images/live-online-mob-1x.png 1x,
-                    ./images/live-online-mob-2x.png 2x
-                  "
-                  media="(min-width:320px)"
-                />
-                <img class="price__img" src="" alt="Live online classes" />
-              </picture>
-              <h3 class="price__subtitle">Live online classes</h3>
-              <p class="price__text">
-                Interactive group classes with expert teachers. Free 7-day trial
-              </p>
-              <div class="price__wrapper">
-                <span class="price__numbers">£12.99</span>
-                <span class="price__desc">per month</span>
-              </div>
-            </li>
-            <li class="price__item">
-              <picture>
-                <source
-                  srcset="
-                    ./images/personal-tuition-tab-m-1x.png 1x,
-                    ./images/personal-tuition-tab-m-2x.png 2x
-                  "
-                  media="(min-width:768px)"
-                />
-                <source
-                  srcset="
-                    ./images/personal-tuition-tab-s-1x.png 1x,
-                    ./images/personal-tuition-tab-s-2x.png 2x
-                  "
-                  media="(min-width:576px)"
-                />
-                <source
-                  srcset="
-                    ./images/personal-tuition-mob-1x.png 1x,
-                    ./images/personal-tuition-mob-2x.png 2x
-                  "
-                  media="(min-width:320px)"
-                />
-                <img class="price__img" src="" alt="Personal Tuition" />
-              </picture>
-              <h3 class="price__subtitle">Personal Tuition</h3>
-              <p class="price__text">
-                Online one-to-one English tutoring – enjoy our first session for
-                only $1
-              </p>
-              <div class="price__wrapper">
-                <span class="price__numbers">£12.99</span>
-                <span class="price__desc">per month</span>
-              </div>
-            </li>
-          </ul>
-        </div>
-      </section>
-      <section class="contact">
-        <div class="container">
-          <h2 class="contact__title">Contact Us</h2>
-          <picture>
-            <source
-              srcset="
-                ./images/contact-us-tab-m-1x.png 1x,
-                ./images/contact-us-tab-m-2x.png 2x
-              "
-              media="(min-width:768px)"
-            />
-            <source
-              srcset="
-                ./images/contact-us-tab-s-1x.png 1x,
-                ./images/contact-us-tab-s-2x.png 2x
-              "
-              media="(min-width:576px)"
-            />
-            <source
-              srcset="
-                ./images/contact-us-mob-1x.png 1x,
-                ./images/contact-us-mob-2x.png 2x
-              "
-              media="(min-width:320px)"
-            />
-            <img class="contact__img" src="" alt="Contact Us" />
-          </picture>
-          <p class="contact__text">
-            Contact Us Discover your current English level by taking our free
-            online English test. Sign up to our newsletter for learning tips and
-            free resources Enter Your E-mail Subscribe
-          </p>
-          <form class="contact__form" action="">
-            <input
-              class="contact__input"
-              type="email"
-              placeholder="Enter Your E-mail"
-              name="email"
-              required
-            />
-            <button class="contact__button" type="submit">Subscribe</button>
-          </form>
-          <div class="contact__bg-line"></div>
-        </div>
-      </section>
-    </main>
-    <footer class="footer">
-      <div class="footer__container container">
-        <a class="footer__logo" href="##"
-          ><p class="footer__logo-primary">
-            Brit<span class="footer__logo-accent">lex</span>
-          </p></a
-        >
-        <ul class="footer__list">
-          <li class="footer__item">
-            <a class="footer__link" href=""
-              >Terms and Conditions<span class="footer__dot">•</span></a
-            >
-          </li>
-          <li class="footer__item">
-            <a class="footer__link" href=""
-              >Privacy Policy<span class="footer__dot">•</span></a
-            >
-          </li>
-          <li class="footer__item">
-            <a class="footer__link" href="">Cookie Policy</a>
-          </li>
-        </ul>
-      </div>
-      <!-- burger menu -->
-      <div class="menu-container js-menu-container" id="mobile-menu">
-        <button class="menu-toggle js-close-menu">
-          <svg class="menu__icon-close" width="50" height="50">
-            <use class="" href="./images/icons.svg#menu-close"></use>
-          </svg>
-        </button>
-        <ul class="mobile-menu">
-          <li><a href="" class="link">Home</a></li>
-          <li><a href="" class="link">Skills</a></li>
-          <li><a href="" class="link">About Us</a></li>
-          <li><a href="" class="link">Pricing</a></li>
-          <li><a href="" class="link">Contacts</a></li>
-        </ul>
-      </div>
-      <!-- burger menu -->
-
-      <!-- Элементы для вызова модальных окон, могут быть любые -->
-
-      <!-- <a href="#" class="js-open-modal" data-modal="1">Открыть окно 1</a>
-      <a href="#" class="js-open-modal" data-modal="2">Открыть окно 2</a>
-      <a href="#" class="js-open-modal" data-modal="3">Открыть окно 2</a>
-      <a href="#" class="js-open-modal" data-modal="4">Открыть окно 2</a> -->
-
-      <!-- Несколько модальных окон -->
-
-      <div class="modal" data-modal="1">
-        <!--   Svg иконка для закрытия окна  -->
-        <svg
-          class="modal__cross js-modal-close"
-          xmlns="http://www.w3.org/2000/svg"
-          viewBox="0 0 24 24"
-        >
-          <path
-            d="M23.954 21.03l-9.184-9.095 9.092-9.174-2.832-2.807-9.09 9.179-9.176-9.088-2.81 2.81 9.186 9.105-9.095 9.184 2.81 2.81 9.112-9.192 9.18 9.1z"
-          />
-        </svg>
-        <p class="modal__title">Заголовок окна 1</p>
-      </div>
-
-      <div class="modal" data-modal="2">
-        <!--   Svg иконка для закрытия окна  -->
-        <svg
-          class="modal__cross js-modal-close"
-          xmlns="http://www.w3.org/2000/svg"
-          viewBox="0 0 24 24"
-        >
-          <path
-            d="M23.954 21.03l-9.184-9.095 9.092-9.174-2.832-2.807-9.09 9.179-9.176-9.088-2.81 2.81 9.186 9.105-9.095 9.184 2.81 2.81 9.112-9.192 9.18 9.1z"
-          />
-        </svg>
-        <p class="modal__title">Заголовок окна 2</p>
-      </div>
-
-      <div class="modal" data-modal="3">
-        <!--   Svg иконка для закрытия окна  -->
-        <svg
-          class="modal__cross js-modal-close"
-          xmlns="http://www.w3.org/2000/svg"
-          viewBox="0 0 24 24"
-        >
-          <path
-            d="M23.954 21.03l-9.184-9.095 9.092-9.174-2.832-2.807-9.09 9.179-9.176-9.088-2.81 2.81 9.186 9.105-9.095 9.184 2.81 2.81 9.112-9.192 9.18 9.1z"
-          />
-        </svg>
-        <p class="modal__title">Заголовок окна 2</p>
-      </div>
-
-      <div class="modal" data-modal="4">
-        <!--   Svg иконка для закрытия окна  -->
-        <svg
-          class="modal__cross js-modal-close"
-          xmlns="http://www.w3.org/2000/svg"
-          viewBox="0 0 24 24"
-        >
-          <path
-            d="M23.954 21.03l-9.184-9.095 9.092-9.174-2.832-2.807-9.09 9.179-9.176-9.088-2.81 2.81 9.186 9.105-9.095 9.184 2.81 2.81 9.112-9.192 9.18 9.1z"
-          />
-        </svg>
-        <p class="modal__title">Заголовок окна 2</p>
-      </div>
-
-      <div class="modal" data-modal="5">
-        <!--   Svg иконка для закрытия окна  -->
-        <svg
-          class="modal__cross js-modal-close"
-          xmlns="http://www.w3.org/2000/svg"
-          viewBox="0 0 24 24"
-        >
-          <path
-            d="M23.954 21.03l-9.184-9.095 9.092-9.174-2.832-2.807-9.09 9.179-9.176-9.088-2.81 2.81 9.186 9.105-9.095 9.184 2.81 2.81 9.112-9.192 9.18 9.1z"
-          />
-        </svg>
-        <p class="modal__title">Заголовок окна 2</p>
-      </div>
-      <!-- Подложка под модальным окном -->
-      <div class="overlay js-overlay-modal"></div>
-    </footer>
     <script
-      defer
-      src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
-      integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+      src="https://unpkg.com/htmx.org@1.9.10"
+      integrity="sha384-D1Kt99CQMDuVetoL1lrYwg5t+9QdHe7NLX/SoJYkXDFfX37iInKRy5xLSi8nO7UC"
       crossorigin="anonymous"
     ></script>
-    <script defer src="./js/menu.js"></script>
-    <script defer src="./js/modal.js"></script>
+    <link rel="stylesheet" href="./css/index.css" />
+  </head>
+  <body>
+    <header>
+      <nav
+        data-hx-trigger="load"
+        data-hx-swap="outerHTML"
+        data-hx-get="./partials/global.header.partial.html"
+      ></nav>
+    </header>
+    <main>
+      <section
+        data-hx-trigger="load"
+        data-hx-swap="outerHTML"
+        data-hx-get="./partials/index.cover.partial.html"
+      ></section>
+      <section
+        data-hx-trigger="load"
+        data-hx-swap="outerHTML"
+        data-hx-get="./partials/index.popular-songs.partial.html"
+      ></section>
+      <section
+        data-hx-trigger="load"
+        data-hx-swap="outerHTML"
+        data-hx-get="./partials/index.genres.partial.html"
+      ></section>
+      <section
+        data-hx-trigger="load"
+        data-hx-swap="outerHTML"
+        data-hx-get="./partials/index.about-station.partial.html"
+      ></section>
+      <section
+        data-hx-trigger="load"
+        data-hx-swap="outerHTML"
+        data-hx-get="./partials/index.broadcasts.partial.html"
+      ></section>
+      <section
+        data-hx-trigger="load"
+        data-hx-swap="outerHTML"
+        data-hx-get="./partials/index.numbers.partial.html"
+      ></section>
+      <section
+        data-hx-trigger="load"
+        data-hx-swap="outerHTML"
+        data-hx-get="./partials/index.program.partial.html"
+      ></section>
+      <section
+        data-hx-trigger="load"
+        data-hx-swap="outerHTML"
+        data-hx-get="./partials/index.artists.partial.html"
+      ></section>
+      <section
+        data-hx-trigger="load"
+        data-hx-swap="outerHTML"
+        data-hx-get="./partials/index.cta-description.partial.html"
+      ></section>
+      <section
+        data-hx-trigger="load"
+        data-hx-swap="outerHTML"
+        data-hx-get="./partials/index.testimonials.partial.html"
+      ></section>
+      <section
+        data-hx-trigger="load"
+        data-hx-swap="outerHTML"
+        data-hx-get="./partials/index.video.partial.html"
+      ></section>
+      <section
+        data-hx-trigger="load"
+        data-hx-swap="outerHTML"
+        data-hx-get="./partials/index.news.partial.html"
+      ></section>
+      <section
+        data-hx-trigger="load"
+        data-hx-swap="outerHTML"
+        data-hx-get="./partials/index.subscribe.partial.html"
+      ></section>
+    </main>
+    <footer
+      data-hx-trigger="load"
+      data-hx-swap="outerHTML"
+      data-hx-get="./partials/global.footer.partial.html"
+    ></footer>
+    <div
+      data-hx-trigger="load"
+      data-hx-swap="outerHTML"
+      data-hx-get="./partials/global.scroll-top.html"
+    ></div>
+    <div
+      data-hx-trigger="load"
+      data-hx-swap="outerHTML"
+      data-hx-get="./partials/global.modal-window.html"
+    ></div>
+    <script src="./js/index.js"></script>
   </body>
 </html>

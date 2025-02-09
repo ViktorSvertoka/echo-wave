@@ -1,0 +1,288 @@
+.team {
+  padding: 120px 0;
+}
+
+@media screen and (min-width: 768px) {
+  .team {
+    padding: 105px 0;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .team {
+    padding: 120px 0;
+  }
+}
+
+.team__header {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 768px) {
+  .team__header {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+.team__title {
+  font-size: 12px;
+  text-transform: uppercase;
+  color: var(--text-color);
+  margin-bottom: 20px;
+}
+
+.team__subtitle {
+  font-size: 30px;
+  font-weight: bold;
+  font-family: var(--font-secondary);
+  margin-bottom: 40px;
+}
+
+@media screen and (min-width: 768px) {
+  .team__subtitle {
+    font-size: 34px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .team__subtitle {
+    font-size: 38px;
+  }
+}
+
+.team__description {
+  font-size: 19px;
+  color: var(--text-color);
+}
+
+@media screen and (min-width: 768px) {
+  .team__description {
+    width: 324px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .team__description {
+    width: 568px;
+  }
+}
+
+.team__wrapp {
+  position: relative;
+}
+
+.team__slider {
+  margin: 30px 0;
+  overflow: hidden;
+}
+
+.team__button {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 30%;
+  transform: translateY(-50%);
+  background-color: var(--bg-slider-btn);
+  border: none;
+  border-radius: 50%;
+}
+
+@media screen and (min-width: 768px) {
+  .team__button {
+    width: 35px;
+    height: 35px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .team__button {
+    background-color: transparent;
+    border: none;
+  }
+}
+
+.js-btn-prev {
+  left: -4%;
+  z-index: 1;
+}
+
+@media screen and (min-width: 768px) {
+  .js-btn-prev {
+    left: -2%;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .js-btn-prev {
+    left: -4%;
+  }
+}
+
+.js-btn-next {
+  right: -4%;
+  z-index: 1;
+}
+
+@media screen and (min-width: 768px) {
+  .js-btn-next {
+    right: -2%;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .js-btn-next {
+    right: -4%;
+  }
+}
+
+.team__icon {
+  fill: var(--text-color);
+  transition: fill 0.3s ease;
+  width: 15px;
+  height: 15px;
+
+  &:hover {
+    fill: var(--main-color);
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .team__icon {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .team__icon {
+    width: 30px;
+    height: 30px;
+  }
+}
+
+.team__list {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.team__item {
+  flex-shrink: 0;
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .team__item {
+    padding: 10px;
+  }
+}
+
+.team__card {
+  padding: 15px;
+  width: 335px;
+  height: 420px;
+  background-color: var(--light-shade-color);
+}
+
+@media screen and (min-width: 1280px) {
+  .team__card {
+    width: 263px;
+    height: 370px;
+  }
+}
+
+.team__image {
+  width: 305px;
+  height: 305px;
+  object-fit: cover;
+}
+
+@media screen and (min-width: 1280px) {
+  .team__image {
+    width: 233px;
+    height: 253px;
+  }
+}
+
+.team__name {
+  font-size: 22px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.team__socials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.team__social-icon {
+  fill: var(--main-color);
+  transition: fill 0.3s ease;
+
+  &:hover {
+    fill: var(--text-color);
+  }
+}
+
+.team__wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.team__pic {
+  width: 50px;
+  height: 50px;
+  margin-top: 40px;
+}
+
+.team__slogan {
+  font-size: 30px;
+  font-weight: bold;
+  font-family: var(--font-secondary);
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .team__slogan {
+    font-size: 34px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .team__slogan {
+    font-size: 38px;
+  }
+}
+
+.team__quote {
+  font-size: 18px;
+  color: var(--text-color);
+}
+
+@media screen and (min-width: 768px) {
+  .team__quote {
+    font-size: 19px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .team__quote {
+    font-size: 21px;
+  }
+}
+
+.team__fm {
+  color: var(--accent-orange);
+  font-weight: bold;
+  margin-left: 5px;
+}

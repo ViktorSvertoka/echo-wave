@@ -1,165 +1,97 @@
-# Britlex
+<div align="center">
+  <a href="https://koldovsky.github.io/1329-team-02/">
+    <img src="images/global/readme-logo.svg" alt="Logo" width="160">
+  </a>
+  <h3 align="center">EchoWave - Team Project</h3>
+</div>
 
-## Britlex Language School
+## 📌 Project Overview
 
-### Landing Page
+The EchoWave website demonstrates our team's ability to design and develop a
+static, visually appealing, and responsive web interface.<br>This project was
+built collaboratively by our team using only <strong>HTML</strong>,
+<strong>CSS</strong>, and <strong>JavaScript</strong>.
 
+## 🔗 Project Link
+
+Check out the live version of the project here:
+<a href="https://koldovsky.github.io/1329-team-02/" target="_blank"> 🖇️ EchoWave
+Website</a>
+
+## Development team :
+
+| Name                  | Role                    | GitHub                                                                                                                                          | Tech Stack                                                                                                                                                                                                                                                             |
+| --------------------- | ----------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Yevhen Martynych      | **Team Lead**           | [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/yevhenmartynych)     | [![HTML](https://img.shields.io/badge/HTML-%23E34F26.svg?logo=html5&logoColor=white)](#) [![CSS](https://img.shields.io/badge/CSS-1572B6?logo=css3&logoColor=fff)](#) [![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=000)](#) |
+| Viktor Svertoka       | **Deputy Team Lead**    | [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ViktorSvertoka)      | [![HTML](https://img.shields.io/badge/HTML-%23E34F26.svg?logo=html5&logoColor=white)](#) [![CSS](https://img.shields.io/badge/CSS-1572B6?logo=css3&logoColor=fff)](#) [![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=000)](#) |
+| Markiian Senkiv       | **Front End Developer** | [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/MarkiianSenkiv)      | [![HTML](https://img.shields.io/badge/HTML-%23E34F26.svg?logo=html5&logoColor=white)](#) [![CSS](https://img.shields.io/badge/CSS-1572B6?logo=css3&logoColor=fff)](#) [![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=000)](#) |
+| Oleksandr Kopytin     | **Front End Developer** | [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/prohodec)            | [![HTML](https://img.shields.io/badge/HTML-%23E34F26.svg?logo=html5&logoColor=white)](#) [![CSS](https://img.shields.io/badge/CSS-1572B6?logo=css3&logoColor=fff)](#) [![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=000)](#) |
+| Dmytro Prokopenko     | **Front End Developer** | [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/micromoleckula)      | [![HTML](https://img.shields.io/badge/HTML-%23E34F26.svg?logo=html5&logoColor=white)](#) [![CSS](https://img.shields.io/badge/CSS-1572B6?logo=css3&logoColor=fff)](#) [![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=000)](#) |
+| Yuliia Shpylka        | **Front End Developer** | [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/yuliiashpylkatestqa) | [![HTML](https://img.shields.io/badge/HTML-%23E34F26.svg?logo=html5&logoColor=white)](#) [![CSS](https://img.shields.io/badge/CSS-1572B6?logo=css3&logoColor=fff)](#) [![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=000)](#) |
+| Vladimir Kravets      | **Front End Developer** | [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/KravetsVA)           | [![HTML](https://img.shields.io/badge/HTML-%23E34F26.svg?logo=html5&logoColor=white)](#) [![CSS](https://img.shields.io/badge/CSS-1572B6?logo=css3&logoColor=fff)](#) [![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=000)](#) |
+| Vladyslav Plakhotniuk | **Front End Developer** | [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/hola2005)            | [![HTML](https://img.shields.io/badge/HTML-%23E34F26.svg?logo=html5&logoColor=white)](#) [![CSS](https://img.shields.io/badge/CSS-1572B6?logo=css3&logoColor=fff)](#) [![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=000)](#) |
+| Anhelina Lytovchenko  | **Front End Developer** | [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Lytovchenkoo)        | [![HTML](https://img.shields.io/badge/HTML-%23E34F26.svg?logo=html5&logoColor=white)](#) [![CSS](https://img.shields.io/badge/CSS-1572B6?logo=css3&logoColor=fff)](#) [![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=000)](#) |
+| Roman Lytvynenko      | **Front End Developer** | [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/rlnolino)            | [![HTML](https://img.shields.io/badge/HTML-%23E34F26.svg?logo=html5&logoColor=white)](#) [![CSS](https://img.shields.io/badge/CSS-1572B6?logo=css3&logoColor=fff)](#) [![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=000)](#) |
+
+### Results of the completed task:
+
+#### Page Home
+
+![Results](./assets/print_screen_01.png)
+
+#### Page About Us
+
+![Results](./assets/print_screen_02.png)
+
+#### Page Podcasts
+
+![Results](./assets/print_screen_03.png)
+
+#### Page Contacts
+
+![Results](./assets/print_screen_04.png)
+
+#### Page 404
+
+![Results](./assets/print_screen_05.png)
+
+#### Sending form to email
+
+![Results](./assets/print_screen_06.png)
+
+<!-- # HTML Template Repository with HTML Proofer
+
+This template repository includes preconfigured GitHub Action that will validate
+html files in a project with
+(HTMLProofer)[https://github.com/gjtorikian/html-proofer/]. And htmx to load
+partials
+
+```html
+<main
+  data-hx-trigger="load"
+  data-hx-swap="outerHTML"
+  data-hx-get="index.main.partial.html"
+></main>
 ```
 
-1. подключить Fonts
+```js
+function init() {
+  import('...js');
+}
 
+const totalPartials = document.querySelectorAll(
+  '[hx-trigger="load"], [data-hx-trigger="load"]'
+).length;
+let loadedPartialsCount = 0;
+
+document.body.addEventListener('htmx:afterOnLoad', () => {
+  loadedPartialsCount++;
+  if (loadedPartialsCount === totalPartials) init();
+});
 ```
 
-```
-
-2. подключить Normalize
-
-```
-
-```
-
-3. подключить CSS
-
-
-```
-
-```
-
-4. подключить SASS
-
-```
-
-```
-
-5. используем методологию BEM
-
-```
-
-```
-
-6. картинки все сжать через https://squoosh.app/ или https://tinypng.com/
-
-
-```
-
-```
-
-7. иконки все сжать через https://jakearchibald.github.io/svgomg/ после сжатия
-   забросить все в спрайт через https://icomoon.io/
-
-
-```
-
-```
-
-
-8. закинуть в проект файлик - .gitignore
-
-
-```
-
-```
-
-9. закинуть в проект файлик - .prettierrc.json
-
-
-```
-
-```
-
-10. макет -
-    https://www.figma.com/file/jjKQXpWj3fdAHDUGhd4lFA/Britlex-Language-School-(Copy)?node-id=580%3A2&t=VQ3kgxlTI4S8v1bQ-1
-
-
-```
-
-```
-
-11. на все внешние ссылки - rel="noopener noreferrer nofollow"
-
-```
-
-```
-
-12. фонтс
-
-- Free Fonts: https://nomail.com.ua/
-
-- Google Fonts: https://fonts.google.com/
-
-- Fonts converter: http://www.font2web.com/
-
-- подключение в CSS или SCSS
-
-@font-face { font-family: 'Proxima Nova'; src:
-url('../fonts/FontsFree-Net-Proxima-Nova-Bold.eot'); src: local('в�є'),
-url('../fonts/Proxima-Nova-Bold.woff') format('woff'),
-url('../fonts/Proxima-Nova-Bold.ttf') format('truetype'),
-url('../fonts/Proxima-Nova-Bold.svg') format('svg'); font-weight: 700;
-font-style: normal; }
-
-font-weight:
-
-1. 100 - Thin
-2. 200 - UltraLite
-3. 300 - Lite
-4. 400 - Normal
-5. 500 - Medium
-6. 600 - Semibold
-7. 700 - Bold
-8. 800 - Heavy
-9. 900 - Black Footer
-
-```
-
-```
-
-13. подключить JS
-
-
-```
-
-```
-
-14. добавить анимацию
-
-
-```
-
-```
-
-15. по JS `use strict`; строгий режим в js type="module" строгий режим в html
-
-
-```
-
-```
-
-16. мануал по стилизации в CSS
-
-- универсальный - \* тега - div (пример)
-
-- id - #header-btn (только один раз можно использовать на странице)
-
-- class - .header-btn (через точку)
-
-- атрибут - [type], [type="button"]
-
-- дочерний - .header-list > .header-link (первая вложеность через знак
-  равенства)
-
-- потомка - .header-list a (для всех потомков через пробел)
-
-- утилитарные классы (например один класс для сброса ссылкам декораций и
-  марджины с падингами)
-
-```
-
-```
-
-17. Font Fascia
-
-- плагин чтобы посмотреть в Figma сразу все стили шрифтов, которые используются
-  в макете.
-
-```
+Add the data-proofer-ignore attribute to any tag to ignore it from every check.
+
+```html
+<a href="https://notareallink" data-proofer-ignore>Not checked.</a>
+``` -->

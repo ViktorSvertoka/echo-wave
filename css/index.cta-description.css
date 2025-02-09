@@ -1,0 +1,35 @@
+.cta-description__hero {
+  max-width: 1240px;
+  padding: 40px;
+  margin: 0 auto;
+}
+
+.cta-description__title {
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--text-light-grey);
+  padding-bottom: 15px;
+}
+
+.cta-description__text {
+  font-family: Righteous;
+  font-size: 56px;
+}
+
+.cta-description__accent {
+  color: var(--accent-magenta);
+}
+
+.cta-description__color {
+  color: var(--accent-pure-violet);
+}
+
+@media screen and (min-width: 1000px) {
+  .cta-description__title {
+    font-size: 14px;
+  }
+
+  .cta-description__text {
+    font-size: 68px;
+  }
+}

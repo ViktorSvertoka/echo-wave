@@ -1,0 +1,124 @@
+.video {
+  background: linear-gradient(
+      var(--accent-translucent-black),
+      var(--accent-translucent-black)
+    ),
+    url(../images/index/video/bg-video.png);
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  padding: 120px 0;
+}
+
+@media screen and (min-width: 768px) {
+  .video {
+    padding: 130px 0;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .video {
+    padding: 160px 0;
+  }
+}
+
+.video__btn {
+  background-color: transparent;
+  border: none;
+  border-radius: 50%;
+  background-image: var(--button-gradient);
+  width: 70px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-image 0.3s ease, color 0.3s ease;
+
+  &:hover {
+    background-image: var(--button-hover-gradient);
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .video__btn {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+.video__icon {
+  fill: var(--main-color);
+  width: 16px;
+  height: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .video__icon {
+    width: 24px;
+    height: 24px;
+  }
+}
+
+.video__title {
+  font-size: 30px;
+  margin-top: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .video__title {
+    font-size: 34px;
+    width: 190px;
+    margin-top: 30px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .video__title {
+    font-size: 38px;
+    width: 440px;
+    margin-top: 40px;
+  }
+}
+
+.video__slogan {
+  font-size: 19px;
+  color: var(--text-color);
+  margin-top: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .video__slogan {
+    width: 190px;
+    margin-top: 30px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .video__slogan {
+    width: 370px;
+    margin-top: 40px;
+  }
+}
+
+.video__link {
+  display: inline-block;
+  font-size: 12px;
+  text-transform: uppercase;
+  text-decoration: underline;
+  color: var(--accent-orange);
+  margin-top: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .video__link {
+    margin-top: 120px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .video__link {
+    margin-top: 140px;
+  }
+}

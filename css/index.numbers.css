@@ -1,0 +1,173 @@
+.numbers {
+  padding-bottom: 40px;
+
+  .numbers__header {
+    display: flex;
+    flex-direction: column;
+
+    .numbers__label {
+      font-size: 12px;
+      font-weight: 700;
+      text-transform: uppercase;
+      color: var(--text-light-grey);
+      padding-bottom: 15px;
+    }
+
+    .numbers__title {
+      font-size: 30px;
+      font-family: var(--font-secondary);
+      color: var(--main-color);
+      padding-bottom: 30px;
+    }
+
+    .numbers__subtitle {
+      font-size: 19px;
+      color: var(--text-color);
+      padding-bottom: 30px;
+    }
+
+    .numbers__image {
+      width: 100%;
+      height: 100%;
+      display: block;
+    }
+
+    .numbers__stats {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      position: relative;
+
+      .numbers__stat {
+        text-align: center;
+
+        .numbers__value {
+          font-family: var(--font-secondary);
+          font-size: 56px;
+          padding-top: 50px;
+
+          .numbers__point {
+            color: var(--accent-pure-violet);
+          }
+
+          .numbers__highlight {
+            color: var(--accent-magenta);
+          }
+        }
+
+        .numbers__stat-label {
+          font-size: 14px;
+          padding: 5px 0;
+        }
+
+        .numbers__stat-description {
+          font-size: 16px;
+          padding: 10px 0;
+        }
+      }
+    }
+  }
+  @media screen and (min-width: 768px) {
+    .numbers__header {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+      gap: 30px;
+
+      .numbers__intro {
+        width: 60%;
+      }
+
+      .numbers__stats {
+        flex: 1, 1, 50%;
+
+        .numbers__stat {
+          padding: 0px 30px;
+
+          .numbers__value {
+            font-size: 68px;
+          }
+        }
+      }
+    }
+  }
+
+  .numbers__content {
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+    .numbers__cta {
+      background-color: var(--accent-gothic-violet);
+      padding: 39px 45px;
+      width: 100%;
+
+      .numbers__cta-label {
+        font-size: 12px;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: var(--accent-orange);
+      }
+
+      .numbers__cta-title {
+        font-size: 24px;
+        font-weight: 700;
+        padding: 20px 0;
+      }
+
+      .numbers__cta-subtitle {
+        font-size: 19px;
+        color: var(--accent-translucent-white);
+        padding-bottom: 20px;
+      }
+    }
+    .numbers__image-wrapper {
+      background: url(../images/index/numbers/person-with-headphones.png);
+      background-size: cover;
+      height: 300px;
+      width: 100%;
+    }
+  }
+
+  @media screen and (min-width: 768px) {
+    .numbers__content {
+      display: flex;
+      flex-wrap: row;
+      justify-content: center;
+      width: 100%;
+      .numbers__cta {
+        width: 60%;
+
+        .numbers__cta-title {
+          font-size: 28px;
+        }
+      }
+
+      .numbers__image-wrapper {
+        height: auto;
+      }
+    }
+  }
+
+  @media screen and (min-width: 1280px) {
+    .numbers__content {
+      display: flex;
+      flex-wrap: row;
+      justify-content: center;
+      width: 100%;
+
+      .numbers__cta {
+        padding: 39px 60px;
+        width: 60%;
+
+        .numbers__cta-title {
+          font-size: 28px;
+        }
+      }
+
+      .numbers__image-wrapper {
+        height: 450px;
+      }
+    }
+  }
+}
